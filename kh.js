@@ -1,7 +1,7 @@
 var app = new Vue ({
     el:'#app',
     data:{
-        text:'六角學院',
+        text:'',
         data:[], //沒有預先定義變數
         currentPage:0,
         locations:[],
