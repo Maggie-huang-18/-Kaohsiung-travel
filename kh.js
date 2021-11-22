@@ -66,7 +66,7 @@ var app = new Vue ({
     }
     ,created(){
         const vm=this;
-        axios.get('https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastore_search.json')
+        axios.get('https://data.kcg.gov.tw/api/3/action/help_show?name=datastore_search')
         .then(function (response) {
         // handle success
         console.log(response);
