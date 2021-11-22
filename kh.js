@@ -15,7 +15,7 @@ var app = new Vue ({
         const locations= new Set(); //new Set陣列內容不得重複
         const vm=this;
         vm.data.forEach((item,i) =>{
-            locations.add(item.Zone)
+            locations.add(item.Zone);
 
         })
         console.log(locations)
